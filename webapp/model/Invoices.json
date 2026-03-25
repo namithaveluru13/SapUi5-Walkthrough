@@ -1,0 +1,22 @@
+{
+  "Invoices": [
+    {
+      "ProductName": "Milk",
+      "Quantity": 4,
+      "ExtendedPrice": 10,
+      "Status": "In Progress"
+    },
+    {
+      "ProductName": "Canned Beans",
+      "Quantity": 3,
+      "ExtendedPrice": 6.85,
+      "Status": "In Progress"
+    },
+    {
+      "ProductName": "Salad",
+      "Quantity": 2,
+      "ExtendedPrice": 8.8,
+      "Status": "Done"
+    }
+  ]
+}                                                        

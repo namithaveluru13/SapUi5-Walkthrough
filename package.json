@@ -1,0 +1,43 @@
+{
+  "name": "sap_ui5_walkthrough",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "agent-base": "^7.1.4",
+    "balanced-match": "^1.0.2",
+    "brace-expansion": "^2.0.2",
+    "braces": "^3.0.3",
+    "debug": "^4.4.3",
+    "dotenv": "^17.3.1",
+    "eventemitter3": "^4.0.7",
+    "fill-range": "^7.1.1",
+    "follow-redirects": "^1.15.11",
+    "http-proxy": "^1.18.1",
+    "http-proxy-agent": "^7.0.2",
+    "http-proxy-middleware": "^3.0.5",
+    "https-proxy-agent": "^7.0.6",
+    "is-extglob": "^2.1.1",
+    "is-glob": "^4.0.3",
+    "is-number": "^7.0.0",
+    "is-plain-object": "^5.0.0",
+    "micromatch": "^4.0.8",
+    "minimatch": "^7.4.8",
+    "ms": "^2.1.3",
+    "picomatch": "^2.3.1",
+    "proxy-from-env": "^1.1.0",
+    "requires-port": "^1.0.0",
+    "to-regex-range": "^5.0.1",
+    "ui5-middleware-simpleproxy": "^3.6.2",
+    "ui5-utils-express": "^1.5.1",
+    "undici-types": "^7.18.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "ui5 build --all --clean-dest",
+      "serve-dist": "ws --compress -d dist --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
